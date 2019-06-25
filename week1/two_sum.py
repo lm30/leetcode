@@ -7,8 +7,8 @@ class Solution(object):
 
         Successful
 
-        Faster than 87% submissions
-        Less memory than 16.31% submissions
+        Faster than 97% submissions
+        Less memory than 40% submissions
         """
         num_dict = {}
         
