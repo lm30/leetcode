@@ -3,6 +3,11 @@ class Solution(object):
         """
         :type A: List[List[int]]
         :rtype: List[List[int]]
+        
+        Successful
+        
+        Faster than 95% submissions
+        Less memory than 55% submissions
         """
         new_array = []
         i = 0 # row
