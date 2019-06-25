@@ -3,6 +3,11 @@ class Solution(object):
         """
         :type A: List[int]
         :rtype: List[int]
+        
+        Faster than 85% submissions
+        Less memory than 9% submissions
+        
+        Quicksort, and eliminating the need for the odd_list and even_list doesn't affect memory usage according to leetcode
         """
         odd_list = []
         even_list = []
