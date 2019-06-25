@@ -4,11 +4,12 @@ class Solution(object):
         :type n: int
         :rtype: bool
 
-        Revisit needed, passes test cases but not submission
+        Revisit needed if want to finish bit counting solution
+        
+        Successful 
+        
+        Faster than 93% submissions
+        Less memory than 18% submissions
         """
-        total = 0
-        bin_n = bin(n)[2:]
-        for elem in bin_n:
-            total += int(str(elem))
-        return total == 1
+        return n & (n -1) == 0 and n != 0
         
